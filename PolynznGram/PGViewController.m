@@ -10,9 +10,13 @@
 
 @interface PGViewController ()
 
+@property (nonatomic) NSString* loginSource;
+
 @end
 
 @implementation PGViewController
+
+@synthesize loginSource = _loginSource;
 
 - (void)viewDidLoad
 {
@@ -24,6 +28,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction) LoginSelected: (UIButton *)sender
+{
+    self.loginSource = @"facebook";
 }
 
 @end

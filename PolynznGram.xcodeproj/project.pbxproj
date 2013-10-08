@@ -21,6 +21,8 @@
 		E04F887417FBF6E200C73606 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04F885617FBF6E200C73606 /* UIKit.framework */; };
 		E04F887C17FBF6E200C73606 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E04F887A17FBF6E200C73606 /* InfoPlist.strings */; };
 		E04F887E17FBF6E200C73606 /* PolynznGramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E04F887D17FBF6E200C73606 /* PolynznGramTests.m */; };
+		E0CA3A3A17FD4AC1009B75CF /* Facebook-logo-ICON-02.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CA3A3917FD4AC1009B75CF /* Facebook-logo-ICON-02.png */; };
+		E0CA3A3C17FD4CB5009B75CF /* twitter_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CA3A3B17FD4CB5009B75CF /* twitter_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		E04F887917FBF6E200C73606 /* PolynznGramTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PolynznGramTests-Info.plist"; sourceTree = "<group>"; };
 		E04F887B17FBF6E200C73606 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E04F887D17FBF6E200C73606 /* PolynznGramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolynznGramTests.m; sourceTree = "<group>"; };
+		E0CA3A3917FD4AC1009B75CF /* Facebook-logo-ICON-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook-logo-ICON-02.png"; sourceTree = "<group>"; };
+		E0CA3A3B17FD4CB5009B75CF /* twitter_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		E04F885817FBF6E200C73606 /* PolynznGram */ = {
 			isa = PBXGroup;
 			children = (
+				E0CA3A3817FD4A6A009B75CF /* Images */,
 				E04F886117FBF6E200C73606 /* PGAppDelegate.h */,
 				E04F886217FBF6E200C73606 /* PGAppDelegate.m */,
 				E04F886417FBF6E200C73606 /* Main.storyboard */,
@@ -151,6 +156,16 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		E0CA3A3817FD4A6A009B75CF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E0CA3A3B17FD4CB5009B75CF /* twitter_logo.png */,
+				E0CA3A3917FD4AC1009B75CF /* Facebook-logo-ICON-02.png */,
+			);
+			name = Images;
+			path = /Users/sonny/Documents/IOS/PolynznGram/PolynznGram/Images;
+			sourceTree = "<absolute>";
 		};
 /* End PBXGroup section */
 
@@ -230,6 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E04F886B17FBF6E200C73606 /* Images.xcassets in Resources */,
+				E0CA3A3A17FD4AC1009B75CF /* Facebook-logo-ICON-02.png in Resources */,
+				E0CA3A3C17FD4CB5009B75CF /* twitter_logo.png in Resources */,
 				E04F885D17FBF6E200C73606 /* InfoPlist.strings in Resources */,
 				E04F886617FBF6E200C73606 /* Main.storyboard in Resources */,
 			);
@@ -461,6 +478,7 @@
 				E04F888317FBF6E200C73606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E04F888417FBF6E200C73606 /* Build configuration list for PBXNativeTarget "PolynznGramTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +487,7 @@
 				E04F888617FBF6E200C73606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
