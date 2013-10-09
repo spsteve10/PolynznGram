@@ -23,6 +23,9 @@
 		E04F887E17FBF6E200C73606 /* PolynznGramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E04F887D17FBF6E200C73606 /* PolynznGramTests.m */; };
 		E0CA3A3A17FD4AC1009B75CF /* Facebook-logo-ICON-02.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CA3A3917FD4AC1009B75CF /* Facebook-logo-ICON-02.png */; };
 		E0CA3A3C17FD4CB5009B75CF /* twitter_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CA3A3B17FD4CB5009B75CF /* twitter_logo.png */; };
+		E0CA3A3F1803D5AC009B75CF /* camera-sketch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0CA3A3D1803D5AC009B75CF /* camera-sketch.jpg */; };
+		E0CA3A401803D5AC009B75CF /* folder_black_games.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CA3A3E1803D5AC009B75CF /* folder_black_games.png */; };
+		E0CA3A4F18052344009B75CF /* PGViewControllerSelectMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CA3A4E18052344009B75CF /* PGViewControllerSelectMedia.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,10 @@
 		E04F887D17FBF6E200C73606 /* PolynznGramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolynznGramTests.m; sourceTree = "<group>"; };
 		E0CA3A3917FD4AC1009B75CF /* Facebook-logo-ICON-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook-logo-ICON-02.png"; sourceTree = "<group>"; };
 		E0CA3A3B17FD4CB5009B75CF /* twitter_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_logo.png; sourceTree = "<group>"; };
+		E0CA3A3D1803D5AC009B75CF /* camera-sketch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "camera-sketch.jpg"; sourceTree = "<group>"; };
+		E0CA3A3E1803D5AC009B75CF /* folder_black_games.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder_black_games.png; sourceTree = "<group>"; };
+		E0CA3A4D18052344009B75CF /* PGViewControllerSelectMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGViewControllerSelectMedia.h; sourceTree = "<group>"; };
+		E0CA3A4E18052344009B75CF /* PGViewControllerSelectMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGViewControllerSelectMedia.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +131,8 @@
 				E04F886817FBF6E200C73606 /* PGViewController.m */,
 				E04F886A17FBF6E200C73606 /* Images.xcassets */,
 				E04F885917FBF6E200C73606 /* Supporting Files */,
+				E0CA3A4D18052344009B75CF /* PGViewControllerSelectMedia.h */,
+				E0CA3A4E18052344009B75CF /* PGViewControllerSelectMedia.m */,
 			);
 			path = PolynznGram;
 			sourceTree = "<group>";
@@ -160,6 +169,8 @@
 		E0CA3A3817FD4A6A009B75CF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E0CA3A3D1803D5AC009B75CF /* camera-sketch.jpg */,
+				E0CA3A3E1803D5AC009B75CF /* folder_black_games.png */,
 				E0CA3A3B17FD4CB5009B75CF /* twitter_logo.png */,
 				E0CA3A3917FD4AC1009B75CF /* Facebook-logo-ICON-02.png */,
 			);
@@ -247,7 +258,9 @@
 				E04F886B17FBF6E200C73606 /* Images.xcassets in Resources */,
 				E0CA3A3A17FD4AC1009B75CF /* Facebook-logo-ICON-02.png in Resources */,
 				E0CA3A3C17FD4CB5009B75CF /* twitter_logo.png in Resources */,
+				E0CA3A401803D5AC009B75CF /* folder_black_games.png in Resources */,
 				E04F885D17FBF6E200C73606 /* InfoPlist.strings in Resources */,
+				E0CA3A3F1803D5AC009B75CF /* camera-sketch.jpg in Resources */,
 				E04F886617FBF6E200C73606 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +282,7 @@
 			files = (
 				E04F885F17FBF6E200C73606 /* main.m in Sources */,
 				E04F886917FBF6E200C73606 /* PGViewController.m in Sources */,
+				E0CA3A4F18052344009B75CF /* PGViewControllerSelectMedia.m in Sources */,
 				E04F886317FBF6E200C73606 /* PGAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

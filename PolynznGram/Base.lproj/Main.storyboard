@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="a6t-6n-9Hf">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
@@ -8,15 +8,11 @@
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="PGViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="XgY-Fc-gxZ"/>
-                        <viewControllerLayoutGuide type="bottom" id="lVa-Tg-8eh"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8O-u4-FHp">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="m8O-u4-FHp">
                                 <rect key="frame" x="105" y="153" width="110" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Facebook-logo-ICON-02.png">
@@ -24,10 +20,9 @@
                                 </state>
                                 <connections>
                                     <action selector="LoginSelected:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VdS-5o-JQH"/>
-                                    <segue destination="fgR-Ng-bjz" kind="push" id="DcD-1w-VBq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27Z-75-f4k">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="27Z-75-f4k">
                                 <rect key="frame" x="105" y="305" width="110" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="twitter_logo.png">
@@ -41,24 +36,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="0ho-Qn-cLA">
+        <!--View Controller Select Media-->
+        <scene sceneID="djU-jV-cQK">
             <objects>
-                <viewController id="fgR-Ng-bjz" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="sLc-RS-tcb"/>
-                        <viewControllerLayoutGuide type="bottom" id="30I-q7-BgN"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="46U-NL-IUi">
+                <viewController id="a6t-6n-9Hf" customClass="PGViewControllerSelectMedia" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8C3-Ob-5JP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="MeV-RS-EfG">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="425"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nzS-FG-Ab6">
+                                <rect key="frame" x="91" y="510" width="138" height="30"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" label="Take a photo"/>
+                                <state key="normal" title="Select from Media"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jvd-En-t2U">
+                                <rect key="frame" x="91" y="456" width="138" height="30"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" label="Take a photo"/>
+                                <state key="normal" title="Take a photo"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="mDI-Xf-t3S"/>
+                    <connections>
+                        <outlet property="imageView" destination="MeV-RS-EfG" id="GQu-d0-S1s"/>
+                        <outlet property="selectPhoto" destination="nzS-FG-Ab6" id="SZN-dx-SsO"/>
+                        <outlet property="takePhoto" destination="jvd-En-t2U" id="Ym6-F4-W27"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pKo-Mj-Ghe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dgn-EL-awU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="789" y="-98"/>
+            <point key="canvasLocation" x="473" y="-1"/>
         </scene>
     </scenes>
     <resources>

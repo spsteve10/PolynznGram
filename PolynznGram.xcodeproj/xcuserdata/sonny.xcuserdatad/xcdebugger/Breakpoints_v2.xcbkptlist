@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "PolynznGram/PGViewController.m"
-            timestampString = "402479678.854174"
+            timestampString = "402995380.619813"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "-LoginSelected:"
             landmarkType = "5">
          </BreakpointContent>
