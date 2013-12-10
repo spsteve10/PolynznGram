@@ -14,5 +14,6 @@
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 @property (strong, nonatomic) IBOutlet UIButton *takePhoto;
 @property (strong, nonatomic) IBOutlet UIButton *selectPhoto;
+@property (strong, nonatomic) IBOutlet UIButton *addImage;
 
 @end
